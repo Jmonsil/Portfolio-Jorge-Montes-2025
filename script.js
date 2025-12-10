@@ -1,13 +1,13 @@
-// Seleciona o botão e o conteúdo
+
 const btnToggle = document.getElementById("btn-toggle");
 const conteudo = document.getElementById("conteudo-bem-vindo");
 
-// Adiciona o evento de clique
+
 btnToggle.addEventListener("click", () => {
-  // Alterna a classe hidden
+  
   conteudo.classList.toggle("hidden");
 
-  // Muda o ícone de acordo com o estado
+  
   if (conteudo.classList.contains("hidden")) {
     btnToggle.innerHTML = '<i class="fa-solid fa-chevron-down"></i>';
   } else {
